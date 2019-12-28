@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Counter</title>
+    <style>
+        .winner {
+            border: 1px dashed lightgreen;
+            padding: 3px 6px 3px 6px;
+            color : greenyellow;
+            font-size : 52px;
+        }
+
+        .looser {
+            color : red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><span id="player-1-display">0</span> - <span id="player-2-display">0</span></h1>
+        <h1 id="winner-display"></h1>
+        <h2>Score to Win : <span id="winning-score-display">5</span></h2>
+    </div>
+        <input type="number" id="winning-score-count">
+        <button id="player-1-count">Player-1</button>
+        <button id="player-2-count">Player-2</button>
+        <button id="reset">Reset</button>
+    <script type="text/javascript" src="scoreCounter.js"></script>
+</body>
+</html>
